@@ -10,7 +10,9 @@
 */
 'use strict';
 
-const ads = document.querySelector('div.adv')
+document.body.style.backgroundImage = 'url(image/you-dont-know-js.jpg)';
+console.log('document.body.style.backgroundImage: ', document.body.style);
+const ads = document.querySelector('div.adv');
 ads.remove();
 const books = document.querySelectorAll('.book');
 // console.log('books: ', books);
